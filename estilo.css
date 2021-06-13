@@ -1,0 +1,117 @@
+/* Reset */
+
+* {
+    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Navegación */
+
+.navegacion {
+    font-family: \22Hoefler Text\22, serif;
+    font-size: 16px;
+    background-color: black;
+    padding: 1px;
+    margin: 0px;
+    
+}
+
+.barra {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    
+}
+
+.barra a {
+    margin: 0px 10px 0px 10px;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    line-height: 13px;
+    padding: 6px;
+    border-radius: 7px;
+    font-family: Georgia, serif;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%);
+    box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
+    border: 2px solid rgb(28, 110, 164);
+    display: inline-block;
+}
+.barra a:hover {
+    background: #1C6EA4;
+}
+.barra a:active {
+    background: #144E75;
+}
+
+/* Portada */
+
+header {
+    background-image: url(Imagenes/portada1.jpg);
+    background-size: cover;
+    background-position: 10px -250px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.portada {
+    background-image: url(Imagenes/portada.jpg);
+    box-shadow: rgb(0, 0, 0) 5px 5px 20px 10px;
+    background-size: cover;
+    border: 3px solid black;
+    padding-left: 31%;
+    padding-right: 31%;
+    margin-top: 50px;
+    margin-left: 0px;
+    padding-bottom: 250px;
+    
+    
+}
+
+/* Cuerpo */
+
+body {
+    background-color: black;
+    color: white;
+    padding-left: 15%;
+    padding-right: 15%;
+    
+}
+
+/* Catalogo */
+
+.productos {
+    width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.productos .puas {
+
+    width: 33%;
+}
+
+.puas a {
+    display: block;
+    margin: 5px;
+    position: relative;
+}
+
+.puas img {
+    width: 100%;
+    height: auto;
+}
+
